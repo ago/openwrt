@@ -216,6 +216,7 @@ endef
 TARGET_CPPFLAGS := \
 	-I$(STAGING_DIR)/usr/include/libnl-tiny \
 	-I$(PKG_BUILD_DIR)/src/crypto \
+	-I$(PKG_BUILD_DIR)/src \
 	$(TARGET_CPPFLAGS) \
 	-I$(STAGING_DIR)/usr/include/madwifi \
 	-I$(STAGING_DIR)/usr/include/mac80211 \
