@@ -1,0 +1,20 @@
+commit 3098baf9966950ac041ac3a8374cccb371eb3e4c
+Author: Alexander Gordeev <lasaine@lvk.cs.msu.su>
+Date:   Sat Nov 27 05:32:06 2010 +0300
+
+    gadget.h: add missing include
+    
+    Signed-off-by: Alexander Gordeev <lasaine@lvk.cs.msu.su>
+
+diff --git a/include/linux/usb/gadget.h b/include/linux/usb/gadget.h
+index f4b7ca5..32743e3 100644
+--- a/include/linux/usb/gadget.h
++++ b/include/linux/usb/gadget.h
+@@ -15,6 +15,7 @@
+ #ifndef __LINUX_USB_GADGET_H
+ #define __LINUX_USB_GADGET_H
+ 
++#include <linux/device.h>
+ #include <linux/slab.h>
+ 
+ struct usb_ep;
